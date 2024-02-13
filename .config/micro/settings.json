@@ -1,0 +1,13 @@
+{
+    "autosu": true,
+    "colorscheme": "simple",
+    "parsecursor": true,
+    "permbackup": true,
+    "relativeruler": true,
+    "savecursor": true,
+    "saveundo": true,
+    "scrollbar": true,
+    "softwrap": true,
+    "tabmovement": true,
+    "tabstospaces": true
+}
