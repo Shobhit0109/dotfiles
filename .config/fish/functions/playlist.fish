@@ -1,0 +1,4 @@
+function playlist --wraps=mpv\ --no-resume-playback\ --cookies-file=/home/shobhit/Downloads/youtube.com_cookies.txt\ --cookies\ --term-playing-msg=Playlist
+  # mpv --no-resume-playback --cookies-file=/home/shobhit/Downloads/youtube.com_cookies.txt --cookies --term-playing-msg='\n\tTitle: ${media-title}' --no-video --shuffle --save-position-on-quit --prefetch-playlist=yes --cache=yes -quiet --loop-playlist=inf --ytdl-raw-options=cookies=/home/shobhit/Downloads/youtube.com_cookies.txt --volume=60 $argv
+  mpv --cookies-file=/home/shobhit/Downloads/youtube.com_cookies.txt --cookies --term-playing-msg='\n\tTitle: ${media-title}' --no-video --shuffle --save-position-on-quit --prefetch-playlist=yes --cache=yes -quiet --loop-playlist=inf --ytdl-raw-options=cookies=/home/shobhit/Downloads/youtube.com_cookies.txt --volume=60 $argv
+end

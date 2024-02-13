@@ -1,0 +1,3 @@
+function snapperClean --wraps=Sudo\ fish\ -c\ \'for\ i\ in\ /home/.snapshots/\*\;btrfs\ subv\ delete\ \$i/snapshot\;end\;rm\ -rf\ /home/.snapshots/\*\;for\ i\ in\ /.snapshots/\*\;btrfs\ subv\ delete\ \$i/snapshot\;end\ \;\ rm\ -rf\ /.snapshots/\*\' --description alias\ snapperClean=Sudo\ fish\ -c\ \'for\ i\ in\ /home/.snapshots/\*\;btrfs\ subv\ delete\ \$i/snapshot\;end\;rm\ -rf\ /home/.snapshots/\*\;for\ i\ in\ /.snapshots/\*\;btrfs\ subv\ delete\ \$i/snapshot\;end\ \;\ rm\ -rf\ /.snapshots/\*\'
+  Sudo fish -c 'for i in /home/.snapshots/*;btrfs subv delete $i/snapshot;end;rm -rf /home/.snapshots/*;for i in /.snapshots/*;btrfs subv delete $i/snapshot;end ; rm -rf /.snapshots/*' $argv; 
+end
