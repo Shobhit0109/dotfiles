@@ -1,7 +1,0 @@
-function upload --wraps='for i in /home/shobhit/Documents/*;fish -c "cd $i;git add .;git commit -m (date);git push -u origin main" &;end;' --wraps='for i in /home/shobhit/Documents/*;fish -c "/bin/cd $i;git add .;git commit -m (date);git push -u origin main" &;end;' --wraps='for i in /home/shobhit/Documents/*;fish -c "builtin cd $i;git add .;git commit -m (date);git push -u origin main" &;end;' --wraps='for i in /home/shobhit/Documents/*;fish -c "builtin cd $i;echo $i;git add .;git commit -m (date);git push -u origin main" &;end;' --wraps='for i in /home/shobhit/Documents/*;fish -c "builtin cd $i;echo $i;git add .;git commit -m (date);git push -u origin main" 1 &> /dev/null;end;' --description 'alias upload=for i in /home/shobhit/Documents/*;fish -c "builtin cd $i;echo $i;git add .;git commit -m (date);git push -u origin main" &;end;'
-  # for i in /home/shobhit/Documents/*;fish -c "builtin cd $i;echo $i;git add .;git commit -m (date);git push -u origin main" &;end; $argv;
-  for i in /home/shobhit/Documents/* $argv;fish -c "echo (builtin cd $i;echo $i;git add .;echo ,;git commit -m (date); echo ,;git push -u origin main;)" &> /tmp/git.log &;end
-  echo "Result saved on /tmp/git.log" | lolcat
-  echo 'cat /tmp/git.log' | cb
-  echo "Path Saved to clipboard" | lolcat
-end
