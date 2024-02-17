@@ -1,3 +1,3 @@
 function ls --wraps='exa -glarF@ --icons --group-directories-first --color=always' --description 'alias ls=exa -glarF@ --icons --group-directories-first --color=always'
-  exa -glharF@ --icons --group-directories-first --color=always $argv; 
+  exa -glhar@F --icons --group-directories-first --color=always $argv; 
 end
