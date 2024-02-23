@@ -21,16 +21,16 @@ end
     
 if test (uname -a | awk '{print $2}') = shobhit-Ubuntu ;
     alias as="apt list 2>/dev/null | cut -d/ -f1 | sed '1d' | fzf --multi --preview 'nala show -a {1}' --layout=reverse  | xargs -ro sudo nala install"
-    alias als="apt list --installed 2>/dev/null | cut -d/ -f1 | sed '1d' | fzf --multi --preview 'nala show {1}' --layout=reverse --bind 'enter:execute(dpkg -L {} | cat)'"
+    alias als='apt list --installed 2>/dev/null | cut -d/ -f1 | sed \'1d\' | fzf --multi --preview \'nala show {1}\' --layout=reverse --bind \'enter:execute(fish -c "dpkg -L {} | cat; read")\''
     source /home/shobhit/.config/fish/nala.fish
 
     if [ "$USER" = "shobhit" ];
-        nvm use lts 1> /dev/null &
+        nvm use 21 1> /dev/null &
         any-nix-shell fish --info-right | source
     end
     
-    # load and unload environment variables
-    direnv hook fish | source
+    # smarter cd
+    zoxide init fish | source
 end;
 
 
@@ -42,3 +42,6 @@ end;
     # Search locally installed packages with 'yay' and 'fzf'
     # alias pls="paru -Qq | fzf --preview 'yay -Qil {}' --layout=reverse --bind 'enter:execute(paru -Qil {} | cat)'"
 # end
+
+# # load and unload environment variables
+# direnv hook fish | source

@@ -27,11 +27,10 @@ SETUVAR _fisher_jorgebucaran_2F_autopair_2E_fish_files:\x7e/\x2econfig/fish/func
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
 SETUVAR _fisher_jorgebucaran_2F_fishtape_files:\x7e/\x2econfig/fish/functions/fishtape\x2efish\x1e\x7e/\x2econfig/fish/completions/fishtape\x2efish
 SETUVAR _fisher_jorgebucaran_2F_nvm_2E_fish_files:\x7e/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_list\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e\x7e/\x2econfig/fish/functions/nvm\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e\x7e/\x2econfig/fish/completions/nvm\x2efish
-SETUVAR _fisher_jorgebucaran_2F_replay_2E_fish_files:\x7e/\x2econfig/fish/functions/replay\x2efish\x1e\x7e/\x2econfig/fish/completions/replay\x2efish
 SETUVAR _fisher_jorgebucaran_2F_spark_2E_fish_files:\x7e/\x2econfig/fish/functions/spark\x2efish\x1e\x7e/\x2econfig/fish/completions/spark\x2efish
 SETUVAR _fisher_joseluisq_2F_gitnow_40_32_2E_31_2E_31__files:\x7e/\x2econfig/fish/functions/__gitnow_config_file\x2efish\x1e\x7e/\x2econfig/fish/functions/__gitnow_functions\x2efish\x1e\x7e/\x2econfig/fish/functions/__gitnow_manual\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/gitnow\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/gitnow_config\x2efish
 SETUVAR _fisher_oh_2D_my_2D_fish_2F_plugin_2D_license_files:\x7e/\x2econfig/fish/functions/license\x2efish\x1e\x7e/\x2econfig/fish/completions/license\x2efish
-SETUVAR _fisher_plugins:jorgebucaran/fisher\x1eilancosman/tide\x40v5\x1edecors/fish\x2dcolored\x2dman\x1ejoseluisq/gitnow\x402\x2e1\x2e1\x1eoh\x2dmy\x2dfish/plugin\x2dlicense\x1efranciscolourenco/done\x1ejorgebucaran/autopair\x2efish\x1ejorgebucaran/fishtape\x1ejorgebucaran/nvm\x2efish\x1ejorgebucaran/spark\x2efish\x1ejorgebucaran/replay\x2efish\x1eveirt/web\x2dsearch\x2efish\x1ewfxr/forgit
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1eilancosman/tide\x40v5\x1edecors/fish\x2dcolored\x2dman\x1ejoseluisq/gitnow\x402\x2e1\x2e1\x1eoh\x2dmy\x2dfish/plugin\x2dlicense\x1efranciscolourenco/done\x1ejorgebucaran/autopair\x2efish\x1ejorgebucaran/fishtape\x1ejorgebucaran/nvm\x2efish\x1ejorgebucaran/spark\x2efish\x1eveirt/web\x2dsearch\x2efish\x1ewfxr/forgit
 SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR _fisher_veirt_2F_web_2D_search_2E_fish_files:\x7e/\x2econfig/fish/functions/web\x2dsearch\x2efish\x1e\x7e/\x2econfig/fish/completions/web\x2dsearch\x2efish
 SETUVAR _fisher_wfxr_2F_forgit_files:\x7e/\x2econfig/fish/conf\x2ed/bin\x1e\x7e/\x2econfig/fish/conf\x2ed/forgit\x2eplugin\x2efish\x1e\x7e/\x2econfig/fish/completions/_git\x2dforgit\x1e\x7e/\x2econfig/fish/completions/git\x2dforgit\x2ebash\x1e\x7e/\x2econfig/fish/completions/git\x2dforgit\x2efish\x1e\x7e/\x2econfig/fish/completions/git\x2dforgit\x2ezsh
@@ -116,7 +115,7 @@ SETUVAR fish_pager_color_selected_background:\x2d\x2dreverse
 SETUVAR fish_pager_color_selected_completion:\x1d
 SETUVAR fish_pager_color_selected_description:\x1d
 SETUVAR fish_pager_color_selected_prefix:\x1d
-SETUVAR --export fish_user_paths:/home/shobhit/\x2ecargo/bin\x1e/home/shobhit/\x2elocal/share/JetBrains/Toolbox/scripts
+SETUVAR --export fish_user_paths:/home/shobhit/\x2ecargo/bin\x1e/home/shobhit/\x2elocal/share/JetBrains/Toolbox/scripts\x1e/home/shobhit/go/bin
 SETUVAR tide_aws_bg_color:normal
 SETUVAR tide_aws_color:FF9900
 SETUVAR tide_aws_icon:\uf270
