@@ -115,5 +115,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-[ -r /home/shobhit/.byobu/prompt ] && . /home/shobhit/.byobu/prompt   #byobu-prompt#
 . "$HOME/.cargo/env"
+
+. "$HOME/.bash_prompt"

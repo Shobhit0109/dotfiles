@@ -6,10 +6,7 @@ if status is-interactive
         function fish_greeting
           if [ "$USER" = "shobhit" ];
             if not test $IN_NIX_SHELL
-             please
-             printPoke
-             echo
-             printWeather
+             printGreetings
             end
           end
         end
@@ -31,6 +28,8 @@ if test (uname -a | awk '{print $2}') = shobhit-Ubuntu ;
     
     # smarter cd
     zoxide init fish | source
+
+    fzf_configure_bindings --git_status= --history= --git_log= --directory=\cf --variables= --processes=\e\cp
 end;
 
 
